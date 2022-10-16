@@ -1,0 +1,29 @@
+.category__component{
+    width: 84%;
+    text-align: center;
+    background: #e3e3e3;
+    padding: 1px 0rem;
+    border-radius: 19px;
+    transition: 4s at ease;
+}
+
+.category__component:hover{
+    border: 1px solid black;
+    background: transparent;
+}
+
+.component__img{
+    width: 5rem;
+}
+
+.component__name{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:600px){
+    .category__component{
+        width: 90%;
+    }
+}

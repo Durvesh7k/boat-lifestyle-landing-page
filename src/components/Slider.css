@@ -1,0 +1,56 @@
+.Spacing{
+    height: 7rem;
+}
+.main__container{
+    margin: 0px 0px 0rem 63px;
+}
+
+
+
+
+
+.slider__images{
+    height: 30rem;
+}
+
+.slider__offer{
+    padding: 2rem 3rem;
+}
+
+.offer__heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.offer__details{
+    background: #f7c20a;
+    padding: 9px;
+    width: max-content;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Spacing{
+        height: 6rem;
+    }
+
+    .main__container{
+        margin: 0px 0px 0rem 47px;
+
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .Spacing{
+        height: 6rem;
+    }
+
+    .slider__images{
+        height: 15rem;
+    }
+
+    .main__container{
+        margin: 0px 0px 0rem 26px;
+    }
+    
+}

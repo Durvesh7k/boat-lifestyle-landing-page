@@ -1,0 +1,27 @@
+.sound__items{
+    padding: 0rem 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:1024px)  {
+   .sound__items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+   }
+    
+}
+@media screen and (max-width:600px)  {
+   
+    .sound__items{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+
+
+   }
+    
+}

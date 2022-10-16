@@ -1,0 +1,84 @@
+.footer__container{
+    padding: 3rem 0;
+}
+
+.footer__section1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 15rem;
+}
+.boat__logo{
+    width: 20%;
+}
+
+.email__details{
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+.input__container{
+    display: grid;
+    gap: 1rem;
+}
+
+.email__input
+{
+    margin-top: 14px;
+    outline: none;
+    font-size: inherit;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 3rem;
+    padding: 5px;
+    width: 45rem;
+}
+
+.button__containr{
+    display: flex;
+    justify-content: center;
+}
+
+.input__button{
+    margin:  0 0.5rem;
+    padding: 0.5rem;
+    background: red;
+    width: 30%;
+
+}
+
+.socials__container{
+    display: flex;
+    gap: 1rem;
+    padding: 0px 1rem;
+}
+
+.social__icons{
+   font-size: 20px;
+   cursor: pointer;
+   padding: 1rem;
+   transition: 4s at ease-in;
+}
+
+.social__icons:hover{
+    background: #C47AFF;
+    border: 1px solid #C47AFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media screen  and (max-width:600px){
+    .email__input{
+        width: none;
+    }
+
+    .email__input{
+        width: 30rem;
+    }
+
+    .boat__logo{
+        width: 30%;
+    }
+    
+}

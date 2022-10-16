@@ -1,0 +1,45 @@
+.press__info{
+    padding: 0 2rem;
+}
+
+.press__icons{
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.black__detail{
+    padding: 16px 14rem}
+
+.black__section{
+    background: #000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .press__icons{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .press__icons{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0rem;
+    }
+    .black__detail{
+        padding: 16px 2rem;
+    }
+
+    .black__section{
+      font-size: 12px;
+    }
+}
